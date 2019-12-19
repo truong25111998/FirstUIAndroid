@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:background="@drawable/b"
+    android:src="#90448aff"
+    android:layout_height="match_parent"/>
+    <EditText
+        android:id="@+id/et_n1"
+        android:layout_width="wrap_content"
+        android:text="@string/friska"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="70dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_n2"
+        android:layout_below="@+id/et_n1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:layout_marginTop="158dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColorHint="#F5F5F5"
+        android:hint="Username"
+        android:drawableRight="@drawable/ac"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:drawablePadding="8dp"
+        />
+
+    <EditText
+        android:id="@+id/et_n3"
+        android:layout_below="@+id/et_n2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:singleLine="true"
+        android:drawableRight="@drawable/ps"
+        android:layout_marginTop="96dp"
+        android:textColorHint="#F5F5F5"
+        android:hint="Password"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:drawablePadding="8dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+    <Button
+
+        android:id="@+id/et_n4"
+        android:layout_below="@+id/et_n3"
+        android:textSize="20dp"
+        android:layout_marginTop="116dp"
+        android:text="Create an Account"
+        android:background="@drawable/demo_shape"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
